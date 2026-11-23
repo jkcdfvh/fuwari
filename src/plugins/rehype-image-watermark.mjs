@@ -3,8 +3,8 @@ import path from "node:path";
 import sharp from "sharp";
 import { visit } from "unist-util-visit";
 
-const WATERMARK_TEXT = "临明小狐狸の小窝";
-const WATERMARK_URL = "https://zakofox.cn";
+const WATERMARK_TEXT = "gfc博客";
+const WATERMARK_URL = "https://test.hhvvgfc.kdns.fr";
 const MIN_WIDTH = 480;
 const MIN_HEIGHT = 360;
 
