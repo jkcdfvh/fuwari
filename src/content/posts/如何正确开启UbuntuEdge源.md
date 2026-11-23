@@ -26,8 +26,13 @@ Edge 源里面的补丁，全部出自 Canonical 自研的 Surge 框架，这是
 
 pro status
 
+# 2. 配置 Edge 源
 
 
+sudo apt install pro-edge
+sudo pro-enable-edge
 
+# 注:默认情况下，Edge 源的配置优先级要低于 Ubuntu 或 ESM 源，来自该源的更新不会自动安装，你手动挑补丁即可；想要自动更新，可以加参数：
+sudo pro-enable-edge --automatic-updates
 
-最后提醒：第一，任何系统级改动前记得备份；
+# Surge 智能体 + Edge 安全更新是 Canonical 在「AI 时代防守速度」上的一次探索：主打一个用 AI 修复去对冲 AI 漏洞挖掘，同时把「稳定」这条底线，留给了传统的人工质检通道。对 Ubuntu Pro 用户来说，它是一道可选的取舍题——要快，就开；要稳，就等正式补丁发布。我也不建议你在生产环境上盲目乱开。
