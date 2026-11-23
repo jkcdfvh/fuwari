@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "临明小狐狸の小窝",
+	title: "gfc博客",
 	subtitle: "Ciallo～(∠・ω< )⌒★",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -50,13 +50,8 @@ export const navBarConfig: NavBarConfig = {
 			external: false,
 		},
 		{
-			name: "赞助",
-			url: "https://www.ifdian.net/a/LinmingXHL",
-			external: true,
-		},
-		{
 			name: "GitHub",
-			url: "https://github.com/Linming-XHL/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/jkcdfvh/fuwari/", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -64,25 +59,13 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
 	avatar: "https://q.qlogo.cn/g?b=qq&nk=1942239847&s=640", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "临明小狐狸",
+	name: "gfc",
 	bio: "Ciallo～(∠・ω< )⌒★",
 	links: [
 		{
-			name: "Bilibili",
-			icon: "fa6-brands:bilibili", // Visit https://icones.js.org/ for icon codes
-			// You will need to install the corresponding icon set if it's not already included
-			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://space.bilibili.com/3493268186729002",
-		},
-		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://steamcommunity.com/id/LinmingXHL",
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/Linming-XHL",
+			url: "https://github.com/jkcdfvh",
 		},
 	],
 };
@@ -100,5 +83,5 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const contactConfig = {
-	qqNumber: "1942239847",
+	qqNumber: "3935146733",
 };
